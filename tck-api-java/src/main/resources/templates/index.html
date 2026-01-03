@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>TCK API Site</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background: #f4f4f4; }
+        h1 { color: #333; }
+        ul { list-style: none; padding: 0; }
+        li { background: #fff; margin: 5px 0; padding: 10px; border-radius: 5px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body>
+    <h1>TCK Maddeler Listesi</h1>
+    <ul>
+        <li th:each="madde : ${maddeler}">
+            <strong th:text="${madde.madde_no}"></strong> - 
+            <span th:text="${madde.baslik}"></span>: 
+            <span th:text="${madde.ozet}"></span> 
+            (<span th:text="${madde.ceza}"></span>)
+        </li>
+    </ul>
+</body>
+</html>
