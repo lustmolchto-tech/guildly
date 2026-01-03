@@ -1,0 +1,32 @@
+[
+  {
+    "madde_no": 5237,
+    "baslik": "Hırsızlık",
+    "ozet": "Başkasının malını almak suçtur.",
+    "ceza": "1-5 yıl hapis"
+  },
+  {
+    "madde_no": 125,
+    "baslik": "Kasten Adam Öldürme",
+    "ozet": "Birinin hayatına kasten son vermek.",
+    "ceza": "15 yıl-müebbet"
+  },
+  {
+    "madde_no": 191,
+    "baslik": "Hakaret",
+    "ozet": "Bir kişiyi söz veya davranış ile aşağılamak.",
+    "ceza": "3 aydan 2 yıla kadar hapis veya adli para cezası"
+  },
+  {
+    "madde_no": 225,
+    "baslik": "Görevi Kötüye Kullanma",
+    "ozet": "Kamu görevlisinin yetkilerini kötüye kullanması.",
+    "ceza": "6 aydan 3 yıla kadar hapis"
+  },
+  {
+    "madde_no": 242,
+    "baslik": "Kasten Yaralama",
+    "ozet": "Bir kişiye kasten zarar vermek.",
+    "ceza": "1-5 yıl hapis"
+  }
+]
