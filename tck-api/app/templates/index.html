@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TCK API Site</title>
+</head>
+<body>
+    <h1>TCK API Site</h1>
+    <p>Örnek maddeler listesi:</p>
+    <ul id="maddeler-list"></ul>
+
+    <script>
+        // API'den maddeleri çek ve listele
+        fetch("/api/maddeler")
+            .then(res => res.json())
+            .then(data => {
+                const ul = document.getElementById("maddeler-list");
+                if(data.length === 0){
+                    ul.innerHTML = "<li>Hiç madde yok</li>";
+                } else {
+                    data.forEach(m => {
+                        const li = document.createElement("li");
+                        li.textContent = `${m.madde_no} - ${m.baslik}: ${m.ozet} (${m.ceza})`;
+                        ul.appendChild(li);
+                    });
+                }
+            })
+            .catch(err => console.log(err));
+    </script>
+</body>
+</html>
