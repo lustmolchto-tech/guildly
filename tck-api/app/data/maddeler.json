@@ -1,0 +1,14 @@
+[
+  {
+    "madde_no": 5237,
+    "baslik": "Hırsızlık",
+    "ozet": "Başkasının malını izinsiz almak suçtur.",
+    "ceza": "1 yıldan 5 yıla kadar hapis"
+  },
+  {
+    "madde_no": 125,
+    "baslik": "Kasten Adam Öldürme",
+    "ozet": "Başkasının hayatına kasten son verme suçu.",
+    "ceza": "15 yıldan müebbet hapis"
+  }
+]
