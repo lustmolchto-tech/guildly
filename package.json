@@ -1,0 +1,11 @@
+{
+  "name": "tck-api-node",
+  "version": "1.0.0",
+  "description": "TCK maddeler ve cezalar API + frontend, Vercel deploy için",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
